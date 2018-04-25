@@ -1,0 +1,43 @@
+/*Table 3 by 3. 
+
+100px width height 
+
+Borders as you;d expect
+*/
+body{
+	font-family:montserrat;
+	max-width: 800px;
+	width:80%;
+	margin: 20px auto 0 auto;
+	border: lightslategrey 20px solid;
+	padding:20px;
+	font-size: 16px;
+}
+h1{
+	color:pink;
+	font-size: 1.5em;
+	padding-bottom: 1.66%px;
+
+}
+h4{
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color:blue;
+    padding-bottom: 0px;
+}
+.intro{
+	border-left:3px solid lightslategrey;
+	padding-left:1.66%;
+
+}
+hr{
+	/* Gradient transparent - color - transparent */
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    Width:80%;
+	colour:lightslategrey;
+}
+.post{
+	margin-bottom:20px;
+}
